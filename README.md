@@ -1,27 +1,10 @@
 # :bar_chart: Projetos de Data Science 
-Repositório com os colabs que eu criei para realizar a análise dos dados. Nesse repositório existem três projetos:
+Repositório com os colabs que eu criei para realizar a análise dos dados. A estrutura do repositório segue o tipo de análise que é realizada em cada notebook, sendo eles Classificação e EDA. 
 
-### :running: - Motion Sense  
+## Classificação
+-  [**Motion Sense**](Classification/MotionSense/MotionSenseClassificationDL.ipynb): Análise de dados de sensores utilizados durante o monitoramento de atividades físicas (corrida, caminhada, entre outras). Se trata de um problema de classificação multiclasse que utiliza as características provenientes dos dados dos sensores para identificar corretamente o tipo de atividade realizada por cada voluntário do estudo. 
+- **Website Phishing**: Problema de classificação de website de acordo com suas características como idade do domínio, número de acessos, tamanho da url.
 
-Nesse colab eu fiz a análise dos dados de sensores que foram utilizados em voluntários realizando diferentes tipos de atividades físicas (corrida, caminhada, entre outras).
-O código foi desenvolvido em Python, e nele eu faço uma análise exploratória dos dados,com gráficos usando bibliotecas como Seaborn, e matplotlib, e também uso esses dados para
-treinar um modelo de Deep Learning para classificação multiclasse das atividades realizadas pelos voluntários.  
+## EDA
+- [**Acidentes de Trânsito**](EDA/Acidentes/MD_acidentes.ipynb): Análise Exploratória de Dados de Acidentes de Trânsito na cidade de Recife.
 
-Link para o repositório com os dados: https://www.kaggle.com/malekzadeh/motionsense-dataset
-
-### :blowfish: - Phishing  
-
-Esse colab contém a análise feita a partir dos dados de páginas de phishing, e conta com a análise exploratória dos dados, com gráficos mostrando
-a distribuição dos valores nos campos das bases de dados, e também uma descrição mais detalhada das características dos campos presentes na base de dados. Nesse colab eu
-também treinei diferentes algoritmos de Aprendizagem de Máquina para a tarefa de classificação de páginas com phishing, além de ter utilizado um algoritmo de clustering para
-agrupar os dados.  
-
-Link para o repositório com os dados: https://www.kaggle.com/ahmednour/website-phishing-data-set
-
-### :red_car: - Acidentes de Trânsito  
-
-Nesse colab foi utilizada a base de dados de acidentes de trânsito da cidade do recife nos anos de 2019 e 2020. São dados abertos, disponibilizados no site da prefeitura do recife,
-e contam com informações relativas aos acidentes ocorridos. Foi realizado o tratamento desses dados, desde a etapa de feature engineering, criando novos campos para a base de dados,
-passando pela criação de consultas e visualização de dados.  
-
-Link para o repositório com os dados: http://dados.recife.pe.gov.br/dataset/acidentes-de-transito-com-e-sem-vitimas
